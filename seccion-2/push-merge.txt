@@ -1,0 +1,2 @@
+el comanco push envia datos del repositorio local al repositorio remoto
+merge envía los cambios de una rama a la rama en la que nos encontramos
