@@ -1,0 +1,7 @@
+¿cuales son las formas de descargar cambios en el respositorio remoto al repositorio local y en que se diferencian?
+- la verdad no se, no me quedo clara esa partes
+solo me se la de hacer
+- git pull origin 
+para bajar los cambios en el repositorio local
+- git checkout -b <nombre de la rama que baje>
+para crear ahora si sincronizar la rama remota con la local.
