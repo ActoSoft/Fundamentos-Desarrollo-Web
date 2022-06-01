@@ -1,0 +1,3 @@
+¿Qué entendí? Github es un repositorio remoto en el que podemos guardar proyectos hechos desde el contolador de versiones Git.
+¿Qué me pareció el módulo? Aún siendo un poco confuso, creo que todo quedó muy bien explicado y claro.
+No tengo dudas sobre los temas.
