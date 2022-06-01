@@ -1,0 +1,4 @@
+GIT es un controlador de versiones y nos ayudara a saber como, cuando y por quien fue modificado
+GITHUB es una plataforma web que nos permite alojar respositorios de git en la web y se pueden acceder a ellos en cualquier dispositivo.
+El modulo me gusto pero fue muy estresante para mi porque no sabia nada y aprenderlo me costo mucho trabajo.
+Aun me cuesta entender o mejor dicho practicar sola la manera de subir mis archivos o cambios o bien me como pasos.
