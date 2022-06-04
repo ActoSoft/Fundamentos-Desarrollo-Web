@@ -1,0 +1,12 @@
+el ciclo de vida de un archivo
+untracked
+  es cuando el archico se crea dentro de un repositorio git,
+ pero aun se agrega al mismo, git detecta que ha sido creado.
+modified
+ es un archivo que ya ha sido agregado al repositorio, se le ha hecho
+ alguna modificación, pero esa modificación aun no se guarda
+commit
+  despues de haber agregado las modifiaciones al repositorio,
+  se hace un commit para guardar los cambios hechos y comentarlos
+  dentro del repositorio
+

@@ -1,0 +1,6 @@
+¿cual es la importancia de utilizar branches cuando se trabaja en equipos de desarrollo?
+la importancia ddel uso de banches recae en:
+- trabajo simultaneo, sin alterar el ritmo de trabajo de otros
+- modificar partes especificas de un trabajo sin modificar el trabajo oringinal
+- permite supervisar partes editadas de  documentos previo a su integración
+- retomar el trajo princpal desde un punto definido, si es que eeste dejo de funcionar. ( aunque aun no sabemos como)
