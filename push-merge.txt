@@ -1,0 +1,1 @@
+El comando push sube nuestros cambios a la rama remota y el merge combina los cambios de las ramas.
