@@ -1,0 +1,4 @@
+Creacion, mantenimiento o uso, eliminacion
+1.- De creacion es cuando... se crea "equis de"
+2.- De creacion a mantenimiento es cuando se le modifica la informacion a ese archivo
+3.- Cuando el archivo deja de existir en el disco duro
