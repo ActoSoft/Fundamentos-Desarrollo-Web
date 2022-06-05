@@ -1,0 +1,2 @@
+¿Cuales son las formas de descargar cambios del repositorio remoto al repositorio local, y en qué se diferencían?
+R= Es haciendo un pull origin <nombre de la rama>
