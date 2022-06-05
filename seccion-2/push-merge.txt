@@ -1,0 +1,5 @@
+Push: El comando push nos permite subir las versiones que tenemos en nuestro repositorio local al repositorio remoto.
+Para esto debemos especificar que queremos subirlo al repositorio "origin" y a qué rama queremos subir las versiones.
+
+Merge: El comando merge nos permite unir o mezclar todas las versiones creadas en una rama con las versiones de la rama actual.
+Para esto debemos estar posicionados en la rama a la que queremos agregar los cambios y especificar desde qué rama queremos traer las nuevas versiones.
