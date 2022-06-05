@@ -1,0 +1,2 @@
+¿Cuál es la importancia de utilizar branches cuando se trabaja en equipos de desarrollo?
+Por que es una copia de un repositorio y se puede modificar sin afectar el original
