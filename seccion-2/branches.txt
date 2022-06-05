@@ -1,0 +1,2 @@
+¿Cuál es la importancia de utilizar branches cuando se trabaja en equipos de desarrollo?
+R= Que se puede pueden trabajar diferentes funcionalidades en diferentes ramas sin combinarlas
