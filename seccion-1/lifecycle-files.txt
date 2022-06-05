@@ -1,4 +1,4 @@
-1.-¿Cuáles son los diferentes estados en el ciclo de vida de un archivo? 
+1.-¿Cuáles son los diferentes estados en el ciclo de vida de un archivo?
 R= Creación, edición y eliminación.
 
 2.-¿Cuándo cambió de uno a otro?
