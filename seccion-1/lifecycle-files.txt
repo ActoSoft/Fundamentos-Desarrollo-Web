@@ -1,0 +1,5 @@
+¿Cuáles son los diferentes estados en el ciclo de vida de un archivo, y cuándo cambió de uno a otro?
+1. Creación
+2.Edición.
+3.Modificación. 
+Es cuando se van modificando los archivos 
