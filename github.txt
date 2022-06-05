@@ -1,0 +1,11 @@
+Entendí que Git y Github son herramientas que me pueden ayudar mucho como desarrollador 
+porque me permiten tener un historial de versiones con todos los cambios que haya realizado 
+en mi código y así poder revisar o modificar versiones anteriores.
+
+El módulo me pareció muy completo e interesante, aunque se me dificultó un poco porque 
+nunca había utilizado la terminal y tuve que aprender a usarla al mismo tiempo que 
+aprendía los comandos de Git.
+
+Lo único que no me quedó del todo claro es cómo regresar a versiones o commits anteriores
+para modificarlos, recuerdo que al inicio del módulo se mencionó que Git permitía "viajar
+al pasado" y recuperar versiones pero no recuerdo que se haya explicado esa parte.
