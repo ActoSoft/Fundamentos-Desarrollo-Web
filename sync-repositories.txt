@@ -1,0 +1,4 @@
+git fetch,  git merge y git pull
+fetch obtiene la informacion del repo que no esta en el repo local
+merge combina los cambio realizados
+pull combina del remoto a la rama
