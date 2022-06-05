@@ -1,0 +1,2 @@
+push trae los cambios del repo local al repo remoto
+merge combina los cambios realizados
