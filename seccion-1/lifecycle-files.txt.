@@ -1,0 +1,5 @@
+¿Cuáles son los diferentes estados en el ciclo de vida de un archivo, y cuándo cambió de uno a otro?
+1. Sin seguimiento (untracked): git ignora estos archivos
+2. Bajo seguimiento, sin modificaciones (tracked, unmodified): git está al tanto de estos archivos, pero los mismos fueron modificados desde el último commit.
+3. Bajo seguimiento, con modificaciones (tracked, modified): el archivo está en git, pero contiene cambios de los cuales git no está al tanto. 
+4. Bajo seguimiento, preparado (tracked, staged): los cambios de estos archivos serán incluidos en el próximo commit.

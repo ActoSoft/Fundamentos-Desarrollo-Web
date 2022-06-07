@@ -1,0 +1,4 @@
+¿Cuales son las formas de descargar cambios del repositorio remoto al repositorio local, y en qué se diferencían?
+git fetch: es el comando que le dice al git local que recupere la última información de los metadatos del original. 
+Aunque no hace ninguna transferencia de archivos. Es más bien como comprobar si hay algún cambio disponible).
+git pull: hace eso, y copia esos cambios del repositorio remoto.

@@ -1,0 +1,2 @@
+git push: se usa para cargar contenido del repositorio local a un repositorio remoto. 
+git merge: permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama. 

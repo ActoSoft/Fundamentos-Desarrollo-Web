@@ -63,5 +63,3 @@ Sábado 4 de Junio de 2022 a las 23:59 hrs.
 
 ## Dudas / problemas
 Contáctanos mediante el canal de Discord `#dudas-preguntas`. Puedes mandar la pregunta en general aquí y etiquetas a los instructores.
-
-
