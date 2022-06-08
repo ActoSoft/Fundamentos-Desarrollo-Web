@@ -1,0 +1,6 @@
+¿Cuáles son los diferentes estados en el ciclo de vida de un archivo, y cuándo cambió de uno a otro?
+
+1. Untracked: Es cuando el archivo aún no existe y, por lo tanto, Git no puede darle seguimiento
+2. Unmodified: Cuando se agrega un archivo y Git le da segumiento pero detecta que no se ha modificado
+3. Modified: Cuando Git detecta que el archivo ha sido editado de cualquier forma, como agregando o borrando líneas
+4. Staged: Cuando se ejecuta el comando "git add" y se le indica a Git que el archivo ya no se editará más de momento

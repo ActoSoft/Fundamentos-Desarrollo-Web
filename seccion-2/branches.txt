@@ -1,0 +1,6 @@
+¿Cuál es la importancia de utilizar branches cuando se trabaja en equipos de desarrollo?
+
+Durante un desarrollo en equipo, es importante utilizar branches porque de esta forma
+cada integrante del equipo puede trabajar a su propio ritmo en su respectiva rama sin
+interferir en el trabajo de los demás y sin tener que esperar a que ellos terminen
+para poder comenzar, lo que agiliza todo el proceso.

@@ -1,0 +1,5 @@
+¿Cuales son las formas de descargar cambios del repositorio remoto al repositorio local, y en qué se diferencían?
+
+Mediante el comando "git pull" y mediante "git fetch".
+La diferencia es que "git pull" únicamente puede descargar commits a una rama local previamente creada que tenga el
+mismo nombre que la remota, mientras que "git fetch" descarga todos los cambios, ya sean nuevas ramas o nuevos commits.
