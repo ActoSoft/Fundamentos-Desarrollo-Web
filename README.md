@@ -372,13 +372,13 @@ Ahora que tenemos un conjunto de variables, necesitamos funciones para calcularl
 
 Usaremos la tercera forma en esta lección y hablaremos sobre las otras formas en próximas lecciones.
 
-### Anatomía de una Función
+### Anatomía de una Función de flecha
 
 ```javascript
 const yOtra = () => {}
 ```
 
-Una función de flecha (arrow function) comenzará con la palabra clave `const`, seguido del `nombre de que vamos a asignarle a la función`, los paréntesis `()`, la flecha formada por el 'igual' y 'mayor que' `=>`, y finalmente, abra y cierre los corchetes `{}`. Entre estos corchetes es donde irá todo nuestro código a ejecutar.
+Una función de flecha (arrow function) comenzará con la palabra clave `const`, seguido del `nombre de que vamos a asignarle a la función`, el signo igual `=`, los paréntesis `()`, la flecha formada por el 'igual' y 'mayor que' `=>`, y finalmente, abra y cierre los corchetes `{}`. Entre estos corchetes es donde irá todo nuestro código a ejecutar.
 
 ```javascript
 const saludo = () => {
@@ -395,7 +395,7 @@ En este ejemplo declaramos una función `saludo` y la configuramos en `console.l
 Ahora que podemos ejecutar una función básica, vamos a comenzar a pasarle argumentos.
 
 ```javascript
-const saludoConNombre (nombre) {
+const saludoConNombre = (nombre) => {
     console.log('Hola, ' + nombre)
 }
 
@@ -405,7 +405,7 @@ saludoConNombre('Martin')
 Podemos utilizar template strings para escribir la respuesta y concatenar los argumentos.
 
 ```javascript
-const saludoConNombre (nombre) {
+const saludoConNombre = (nombre) => {
     console.log(`Hola ${nombre})
 }
 
@@ -446,7 +446,7 @@ console.log(dividirDosNumeros(6, 3)) // 2
 En este ejemplo, vamos a utilizar operadores de control de flujo y comparación. El flujo de control ("control flow") es una forma de que nuestra función verifique si algo es `true`, y ya sea ejecutando el código suministrado si es así o avanzando si no lo es. Para esto usaremos la palabra clave `if`:
 
 ```javascript
-const edadDeChecoPerez (edad) {
+const edadDeChecoPerez = (edad) => {
     if (edad > 24) {
         return true
     } else {
