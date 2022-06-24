@@ -204,3 +204,112 @@ Podemos validar el tipo de datos con `typeof`.
 ```js
 console.log('variableUndefined type:', typeof variableUndefined) // output -> variableUndefined type: undefined
 ```
+
+---
+
+## Operadores aritméticos
+
+Existen diversos operadores aritméticos dentro de Javascript, entre los cuales se encuentran los siguientes:
+
+## 1. Suma (*+*)
+```js
+const suma = 5 + 7 /* = 12 */
+console.log({ suma }) // output -> { suma: 12 }
+```
+
+## 2. Resta (*-*)
+```js
+const resta = 9 - 2 /* = 7 */
+console.log({ resta }) // output -> { resta: 7 }
+```
+
+## 3. Mutiplicación (*)
+```js
+const multiplicacion = 3 * 6 /* = 18 */
+console.log({ multiplicacion }) // output -> { multiplicacion: 18 }
+```
+
+## 4. Division (*/*)
+```js
+const division = 15 / 3 /* = 5 */
+console.log({ division }) // output -> { division: 5 }
+```
+## 5. Potencia/Exponente (**)
+```js
+const potencia = 4 ** 3 /* = 64 */
+console.log({ potencia }) // output -> { potencia: 64 }
+```
+
+## 6. Módulo (*%*)
+```js
+const modulo = 12 % 4 /* = 0 */
+console.log({ modulo }) // output -> { modulo: 0 }
+```
+
+## Librería Math
+Dentro de Javascript existe una librería añadida al lenguaje llamada `Math`. Esta librería incluye métodos para realizar operaciones matemáticas como raíz cuadrada, razones trigonométricas, etc. Aquí puedes encontrar información al respeto de esta librería:
+> https://www.w3schools.com/js/js_math.asp
+
+```js
+const raizCuadrada = Math.sqrt(81) /* = 9 */
+console.log({ raizCuadrada }) // output -> { raizCuadrada: 9 }
+const seno = Math.sin(Math.PI/6) /* = 30% */
+console.log({ seno }) // output -> { seno: 0.4999 }
+```
+
+## *Shorthands*
+Existen algo llamados shorthands que permiten realizar operaciones aritméticas y asignaciones del resultado a una misma variable de manera corta y rápida. A continuación algunas de los más conocidos:
+
+### 1. Incremento y decremento (+1, -1)
+```js
+let numIncremento = 5
+let numDecremento = 15
+numIncremento++ /* equivalente a: numIncremento = numIncremento + 1  */
+numDecremento-- /* equivalente a: numDecremento = numDecremento - 1  */
+console.log('Incremento ++', numIncremento) // output -> Incremento ++ 6
+console.log('Decremento --', numDecremento) // output -> Decremento -- 14
+```
+
+### 2. Evaluación y asignación
+
+- Suma y asignación
+```js
+let numero = 5
+numero += 3 /*equivalente a: numero = numero + 3 */
+console.log('Suma y asignación +=', numero) // output -> Suma y asignación += 8
+```
+
+- Resta y asignación
+```js
+let numero = 5
+numero -= 2 /*equivalente a: numero = numero - 2 */
+console.log('Resta y asignación -=', numero) // output -> Resta y asignación -= 3
+```
+
+- Multiplicación y asignación
+```js
+let numero = 5
+numero *= 5 /*equivalente a: numero = numero * 5 */
+console.log('Multiplicación y asignación *=', numero) // output -> Multiplicación y asignación *= 25
+```
+
+- División y asignación
+```js
+let numero = 5
+numero /= 5 /*equivalente a: numero = numero / 5 */
+console.log('División y asignación /=', numero) // output -> División y asignación /= 1
+```
+
+- Potencia y asignación
+```js
+let numero = 5
+numero **= 2 /*equivalente a: numero = numero ** 2 */
+console.log('Potencia y asignación **=', numero) // output -> Potencia y asignación **= 25
+```
+
+- Módulo y asignación
+```js
+let numero = 5
+numero %= 2 /*equivalente a: numero = numero ** 2 */
+console.log('Módulo y asignación %=', numero) // output -> Módulo y asignación %= 1
+```
