@@ -315,8 +315,8 @@ console.log('Módulo y asignación %=', numero) // output -> Módulo y asignaci�
 ```
 
 ---
-
-## Manipulación de cadenas de caracteres o strings
+# Strings
+## Concatenación
 Como veíamos anteriormente, los `strings` es un tipo de dato en Javascript que representa a un caracter o a una cadena de caracteres. Para poder considerar un valor como `string` es necesario encontrar esos caracteres entre comillas dobles (*""*) o entre comillas simples (*''*). Inclusive pueden utilizarse back-ticks (*``*), pero eso lo veremos más adelante.
 
 Hay una acción llamada `concatenar` que consiste en unir diversos strings entre ellos mismos o con variables. Hay 3 formas de concatenar, que te mostramos a continuación:
@@ -353,4 +353,6 @@ console.log(`Hola! Mi nombre es ${nombre}, tengo ${edad} años y trabajo en ${em
 
 > Esta nueva forma es la recomendada por convención, además de que es más sencilla de utilizar y leer, teniendo sólo un string y metiendo las variables donde sea necesario, a diferencia de las otras dos opciones las cuales tienes que cortar el string cada vez que quieras concatenar variables.
 
+## Manipulación (métodos)
+Existen diversos métodos que nos permiten manipular un string. Estos métodos permiten separar, unir, cortar, agregar, validar, reemplazar y muchas otras acciones. A continuación te mostramos los métodos más comunes para manipular strings.
 
