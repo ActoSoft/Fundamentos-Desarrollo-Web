@@ -313,3 +313,44 @@ let numero = 5
 numero %= 2 /*equivalente a: numero = numero ** 2 */
 console.log('Módulo y asignación %=', numero) // output -> Módulo y asignación %= 1
 ```
+
+---
+
+## Manipulación de cadenas de caracteres o strings
+Como veíamos anteriormente, los `strings` es un tipo de dato en Javascript que representa a un caracter o a una cadena de caracteres. Para poder considerar un valor como `string` es necesario encontrar esos caracteres entre comillas dobles (*""*) o entre comillas simples (*''*). Inclusive pueden utilizarse back-ticks (*``*), pero eso lo veremos más adelante.
+
+Hay una acción llamada `concatenar` que consiste en unir diversos strings entre ellos mismos o con variables. Hay 3 formas de concatenar, que te mostramos a continuación:
+
+### 1. Operador suma (+)
+Sí, puede parecer extraño pero este operador nos sirve para concatenar strings. Si bien, este operador permite sumar dos o más números, cuando se aplica este operador a strings, lo que hace es unirlos, uno después de otro, de la siguiente manera:
+
+```js
+const greeting = 'Hola'
+const name = 'Martín'
+console.log(greeting + ',' + name + '. Bienvenido!' ) // output -> Hola, Martín. Bienvenido!
+```
+
+### 2. Operador coma (,)
+Otro operador que nos permite concatenar strings es el operador coma. En esencia el uso es muy similar al del operador suma, pero hay una pequeña diferencia. El operador coma **agrega un espacio en blanco entre los strings o variables que está concatenando**.
+
+```js
+const hola = 'Hello'
+const mundo = 'World'
+console.log(hola, mundo) // output -> Hello World
+```
+
+> Si fuiste observador, en el fragmento de código para el operador suma, tuve que dejar un espacio en blanco entre el "." y la palabra "Bienvenido". Con el operador coma, no sería necesario ya que lo agregar de manera automática.
+
+### 3. Template string (`${}`)
+Dentro de todos los cambios y las innovaciones que hubo con la nueva versión de Javascript (ES6) hubo una nueva forma de concatener strings llamada `template strings`. Esta nueva forma permite escribir strings utilizando back-ticks (``) en lugar de comillas simples o dobles, además de que para añadir variables dentro de ese string se utiliza el signo de moneda (*$*) precedido de llaves o *curly braces* (*{}*). Ve el siguiente ejemplo:
+
+```js
+const nombre = 'Martin'
+const edad = 25
+const empresa = 'Actosoft'
+console.log(`Hola! Mi nombre es ${nombre}, tengo ${edad} años y trabajo en ${empresa}`) // output -> Hola! Mi nombre es Martin, tengo 25 años y trabajo en Actosoft
+```
+
+> Esta nueva forma es la recomendada por convención, además de que es más sencilla de utilizar y leer, teniendo sólo un string y metiendo las variables donde sea necesario, a diferencia de las otras dos opciones las cuales tienes que cortar el string cada vez que quieras concatenar variables.
+
+
