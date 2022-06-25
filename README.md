@@ -1,2 +1,5 @@
-# Fundamentos-Desarrollo-Web
-Repositorio para el curso de Fundamentos de Desarrollo Web (2022) por parte de Actosoft.
+# Clase de K'onhin
+
+## Breve repaso, clase con switch y bucles(loops)
+
+Todas las notas estan en el archivo index.js
