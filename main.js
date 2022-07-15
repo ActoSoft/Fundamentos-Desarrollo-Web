@@ -4,7 +4,7 @@ const addTaskButton = document.querySelector('#add-todo')
 const tasksContainer = document.querySelector('#list-todo')
 
 // == Global variable =============================================================
-const tasksList = []
+let tasksList = []
 
 // == Functions ===================================================================
 // -- Event Listener Handlers -----------------------------------------------------
@@ -31,16 +31,19 @@ const generateRandomId = () => String(Math.random() * 1000000)
 // -- Task - based ----------------------------------------------------------------
 const addTask = (description, isCompleted = false) => {
   tasksList.push({ id: generateRandomId(), description, isCompleted })
+  saveTasksInStorage(tasksList)
 }
 
 const toggleCompleteTask = (taskId) => {
   const task = tasksList.find((taskList) => taskList.id === taskId)
   task.isCompleted = !task.isCompleted
+  localStorage.setItem('tasks', JSON.stringify(tasksList))
 }
 
 const deleteTask = (taskId) => {
   const taskIndex = tasksList.findIndex((taskList) => taskList.id === taskId)
   tasksList.splice(taskIndex, 1)
+  localStorage.setItem('tasks', JSON.stringify(tasksList))
 }
 
 const isTaskCompleted = (task) => task.isCompleted
@@ -89,6 +92,17 @@ const generateDeleteTaskButtonElement = (task) => {
 }
 
 // -- Event Listeners -------------------------------------------------------------
+
+document.addEventListener('DOMContentLoaded', () => {
+  const data = getTasksFromStorage()
+  if (!data) {
+    saveTasksInStorage(tasksList/*[] by default*/)
+  } else {
+    tasksList = data
+    renderTasks()
+  }
+})
+
 addTaskButton.addEventListener('click', () => {
   handleAddTask()
 })
@@ -106,3 +120,8 @@ const addEventListenerToButton = (button, action) => {
     renderTasks()
   })
 }
+
+// -- Data persistency on the browser ---------------------------------------------
+const tasksStorageKey = 'tasks'
+const getTasksFromStorage = () => JSON.parse(localStorage.getItem(tasksStorageKey))
+const saveTasksInStorage = (tasks) => localStorage.setItem(tasksStorageKey, JSON.stringify(tasks))
