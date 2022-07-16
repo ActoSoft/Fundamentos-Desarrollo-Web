@@ -85,7 +85,7 @@ const generateListItemElement = () => {
 const generateSpanElement = (task) => {
 	const spanElement = document.createElement('span')
 	spanElement.textContent = task.description
-	spanElement.style = `text-decoration:${isTaskCompleted(task) ? 'line-through' : 'none'};`
+	spanElement.style = `text-decoration:${isTaskCompleted(task) ? 'line-through 0.2rem' : 'none'};`
 	return spanElement
 }
 

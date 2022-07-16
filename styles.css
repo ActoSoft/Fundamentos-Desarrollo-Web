@@ -256,6 +256,7 @@ main {
 
 .list-container__actions {
 	display: flex;
+	justify-content: space-between;
 	gap: 1rem 2rem;
 	border-top: 0.1rem solid rgba(var(--black), 0.1);
 	padding-top: 1.5rem;
